@@ -1,0 +1,13 @@
+# IM Financial Calculator
+
+income = float(input("monthly income: $"))
+
+rent = float(input("monthly rent/mortgage: $"))
+
+utilites = float(input("monthly utilities: $"))
+
+groceries = float(input("mothly groceries: $"))
+
+transportation = float(input("monthly transportation"))
+
+print("rent = ")
