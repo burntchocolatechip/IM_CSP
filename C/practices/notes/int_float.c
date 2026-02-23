@@ -1,4 +1,4 @@
-// VL integers and floats
+// IM integers and floats
 #include <stdio.h>
 #include <math.h>
 
@@ -18,7 +18,7 @@ int main(){
 
     printf("Liters: %.2ff\nFahrenheit: %.1f\npi: %.4f\n", liters,
     fahrenheit, pi);
-    printf("Celsius is: %.2f\n", round(celsius); //rounds to  whole number
+    printf("Celsius is: %.2f\n", round(celsius)); //rounds to  whole number
     printf("%f\n", (int) pow(2, 3));
     sqrt(10); // save as variable or print, don't just leave it
 
