@@ -3,12 +3,19 @@
 
 int main(){
     float income, rent, utilities, groceries, transportation, expenses, savings, total;
+
     float prent, putilities, pgroceries, ptransportation, pexpenses;
+
     printf("This is going to calculate your budget for the month\n");
+
     printf("How much do you make a month?\n");
+
     scanf("%f", &income);
+
     printf("How much is rent?\n");
+
     scanf("%f", &rent);
+    
     printf("How much is utilities?\n");
     scanf("%f", &utilities);
     printf("How much are groceries?\n");
