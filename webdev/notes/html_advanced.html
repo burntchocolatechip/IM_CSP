@@ -5,8 +5,9 @@
         <meta charset="UTF-8">
         <!--Embeded style sheets go inside the head tag-->
         <style>
-            *{
+            body{
                 background-color: rgb(3, 119, 23);
+                font-family:Georgia, 'Times New Roman', Times, serif;
             }
             img{
                 width: 100%;
@@ -33,12 +34,21 @@
                 font-size: 2em;
                 border: 3px solid white;
             }
+            .bold{
+               background-color:aquamarine; 
+               height: 100px; width:100px; border:
+                2px solid green;
+                font-variant: small-caps;
+                margin: 20px;
+                padding: 20px;
+            }
         </style>
     </head>
     <body>
-        <h1>HTML Advanced Notes</h1>
+        <h1>HTML Advanced Notes</h1></body>
         <!--This has inline CSS.  .  . That is a bad syntax-->
-        <div style="background-color:aquamarine; height: 100px; width:100px; border: 2px solid green;">
+        <div> id="box-wrapper"</div>
+        <div class="box">
             <p>This is in the div</p>
         </div>
         <div id="ordered">
@@ -52,8 +62,8 @@
         </ol>
         </div>
         <div id="unordered">
-        <p>This is how you make an 
-        unordered (bulleted) list</p>
+        <p>This is how you make an <span 
+        class="bold">unordered (bulleted)</span> list</p>
         <ul style="list-style-type: circle;
             ">
             <li class="odd">Apple</li>
